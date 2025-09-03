@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version = OmniAuth::Crowd::VERSION
 
-  gem.add_runtime_dependency 'omniauth', '~> 1.0'
+  gem.add_runtime_dependency 'omniauth', '~> 2.0'
   gem.add_runtime_dependency 'nokogiri', '>= 1.10.10'
   gem.add_runtime_dependency 'activesupport', '>= 6.0.3.2'
   gem.add_development_dependency(%q<rack>, [">= 2.2.3"])
